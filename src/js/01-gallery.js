@@ -9,7 +9,7 @@ console.log(galleryItems);
 
 const gallery = document.querySelector('.gallery');
 addImageToGallery();
-const lightbox = new SimpleLightbox('.gallery__link', {
+new SimpleLightbox('.gallery__link', {
   captionsData: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
